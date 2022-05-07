@@ -155,8 +155,10 @@ html{
 .members{
   background-color: var(--first-color);
   width: 100vw;
+  min-height: 100vh;
   padding: 5rem;
   overflow: hidden;
+  position: relative;
 }
 
 .home_description{
@@ -363,7 +365,7 @@ mark{
   }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 800px){
 
   .members_container{
     width: 80% !important;
@@ -387,6 +389,7 @@ mark{
   .events{
     padding: 0 !important;
     padding-top: 1rem !important;
+    min-height: 100vh;
   }
   .event_container{
     width: 100vw !important;
