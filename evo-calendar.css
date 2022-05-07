@@ -938,7 +938,7 @@ button.icon-button > span.chevron-arrow-right {
         transform: translate(0, -100%);
     }
     .event-hide #eventListToggler {
-        top: 100%;
+        top: calc(100% - 45px) !important;
     }
     #eventListToggler button.icon-button > span.chevron-arrow-right {
         position: relative;
