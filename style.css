@@ -372,6 +372,7 @@ mark{
   }
 
   .members{
+    display: flex;
     padding-top: 5rem !important;
     padding: 1rem;
   }
@@ -400,7 +401,7 @@ mark{
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
   :root {
     --heading-font-size: 2rem;
     --h1-font-size: 1.75rem;
@@ -515,7 +516,7 @@ a{
 
 .events_bg{
   height: 100vh;
-  min-width: 100vw;
+  width: 100vw;
   opacity: 0.3;
   background-position: center;
   background-repeat: no-repeat;
@@ -548,6 +549,9 @@ a{
 
 .events_color{
   background-color: var(--first-color);
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
 }
 
 .event_container{
