@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 :root {
@@ -938,7 +937,7 @@ button.icon-button > span.chevron-arrow-right {
         transform: translate(0, -100%);
     }
     .event-hide #eventListToggler {
-        top: calc(100% - 45px) !important;
+        top: 100%;
     }
     #eventListToggler button.icon-button > span.chevron-arrow-right {
         position: relative;
